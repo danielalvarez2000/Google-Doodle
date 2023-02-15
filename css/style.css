@@ -1,8 +1,25 @@
-
 /* Stage */
 #stage {
-    background: rgb(156, 0, 0);
-    height: 300px;
-    width: 600px;
-  }
-  
+  background: rgb(156, 0, 0);
+  height: 300px;
+  width: 600px;
+}
+
+.soccerchick {
+  position: relative;
+  bottom: 450px;
+}
+
+h1 {
+  font-size: 40px;
+  position: relative;
+  bottom: 320px;
+  right: 65px;
+  font-family: 'Bebas Neue', cursive;
+  color: aliceblue;
+}
+
+.char {
+  transform: translateY(115px);
+  transition: transform .5s;
+}
